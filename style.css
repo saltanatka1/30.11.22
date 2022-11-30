@@ -1,13 +1,18 @@
 *{
   box-sizing: border-box;
 }
-.container{
+.container{ /*задать ширину и выровнять по середине*/
  max-width: 980px;
- 
+ margin: 0 auto;
 }
-.row{
+.row{ /*строка*/
   display: flex;
+  flex-wrap: wrap;
 }
+[class^="col"] {
+  padding: 0 10px;
+}
+
 .col-4{ /* 100% / 12 * 4 */
   flex-basis: 33.3%;
   flex-grow: 1;
@@ -24,32 +29,32 @@
   flex-shrink: 1;
 }
 .col-12{
-  flex: 100% 1 1;
+  flex: 100% 0 0;
 }
 .col-1{
-  flex: 8.3% 1 1;
+  flex: 8.3% 0 0;
 }
 .col-2{
-  flex: 16.6% 1 1;
+  flex: 16.6% 0 0;
 }
 .col-5{
-flex: 41.6% 1 1;
+flex: 41.6% 0 0;
 }
 .col-6{
-  flex: 50% 1 1;
+  flex: 50% 0 0;
 }
 .col-7{
-  flex: 58.3% 1 1;
+  flex: 58.3% 0 0;
 }
 .col-8{
-  flex: 66.6% 1 1;
+  flex: 66.6% 0 0;
 }
 .col-9{
-  flex: 75% 1 1;
+  flex: 75% 0 0;
 }
 .col-10{
-  flex: 83% 1 1;
+  flex: 83% 0 0;
 }
 .col-11{
- flex: 91.6% 1 1 ;
+ flex: 91.6% 0 0 ;
 }
