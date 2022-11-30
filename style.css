@@ -72,3 +72,9 @@ flex: 41.6% 0 0;
 .card .card-content {
   padding: 10px 15px;
 }
+.card.card-horizontal {
+  display: flex;
+}
+.card.card-horizontal .card-image {
+  width: 30%;
+}
