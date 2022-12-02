@@ -1,6 +1,26 @@
 *{
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
+header {
+  background-image: url(./bg.jfif);
+  margin-bottom: 50px;
+}
+header:hover {
+  background-image: url(./bg2.jfif);
+  color: white;
+}
+header h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 7vw;
+}
+.second .col-3 .card-image{
+  height: 180px;
+  width: 220px;
+}
 .container{ /*задать ширину и выровнять по середине*/
  max-width: 980px;
  margin: 0 auto;
@@ -19,9 +39,9 @@
   flex-shrink: 1;
 }
 .col-3{
-  flex-basis: 25% ;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .col-6{
   flex-basis: 16.6%;
