@@ -1,25 +1,47 @@
 *{
   box-sizing: border-box;
+  font-family: 'Elsie Swash Caps';
 }
 body {
   background-color: black;
 }
 header {
-  background-image: url(./bg.jfif);
+  background-image: url(./bg2.jfif);
   margin-bottom: 50px;
 }
 header:hover {
-  background-image: url(./bg2.jfif);
-  color: white;
+  background-image: url(./bg.jfif);
+}
+header .card-content h1:hover {
+  color: black;
 }
 header h1 {
   text-align: center;
   font-weight: 700;
   font-size: 7vw;
+  color: white;
 }
 .second .col-3 .card-image{
   height: 180px;
   width: 220px;
+}
+.first .col-3 .card-image:hover {
+  transform: rotate(1deg) scale(1.2);
+}
+ .second .col-3 .card-image:hover {
+  transform: rotate(1deg) scale(1.2);
+}
+.first1 .col-2 .card-image:hover {
+  transform: rotate(1deg) scale(1.2);
+}
+.third {
+  margin-top: 20px;
+  width: 60vw;
+  margin-left: 0px;
+}
+.page {
+  width: 20vw;
+  margin-left: 350px;
 }
 .container{ /*задать ширину и выровнять по середине*/
  max-width: 980px;
@@ -81,10 +103,10 @@ flex: 41.6% 0 0;
 
 
 .card {
-  background-color: antiquewhite;
+  background-color: white;
   border: 2px solid black;
   box-shadow: 0 0 10px 5px rgb(16, 15, 15);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .card .card-image {
   width: 100%;
@@ -96,5 +118,5 @@ flex: 41.6% 0 0;
   display: flex;
 }
 .card.card-horizontal .card-image {
-  width: 30%;
+  width: 50%;
 }
