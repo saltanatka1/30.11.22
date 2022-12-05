@@ -22,8 +22,8 @@ header h1 {
   color: white;
 }
 .second .col-3 .card-image{
-  height: 180px;
-  width: 220px;
+  width: 14vw;
+  height: 20vh;
 }
 .first .col-3 .card-image:hover {
   transform: rotate(1deg) scale(1.2);
@@ -43,8 +43,20 @@ header h1 {
   width: 20vw;
   margin-left: 350px;
 }
+.images {
+  background-image: url(./pg4.jfif);
+   width: 500px;
+   height: 500px;
+ background-repeat: no-repeat;
+ margin-left: 300px;
+
+}
+.images:hover{
+  background-image: url(./pg3.jfif);
+  
+}
 .container{ /*задать ширину и выровнять по середине*/
- max-width: 980px;
+ max-width: 900px;
  margin: 0 auto;
 }
 .row{ /*строка*/
